@@ -118,8 +118,8 @@ album_test = {
          'unverified': {130: 'Drake', 123: u'Dr.\xa0Dre', 4637: 'MC Eiht', 2434: 'Anna Wise'}},
         {'verified': {1745: 'Childish Gambino', 492: 'Big Sean'},
          'unverified': {}},
-        {'verified': {569307: 'Big Lenbo', 12636: 'Jesse Boykins III'},
-         'unverified': {213416: 'Dria', 71478: 'Lucy Rose'}}
+        {'verified': {569307: 'Big Lenbo', 12636: 'Jesse Boykins III', 71478: 'Lucy Rose'},
+         'unverified': {213416: 'Dria'}}
     ],
     "songids_output": [
         {
