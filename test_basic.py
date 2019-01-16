@@ -175,7 +175,7 @@ def runTests(json_input, context):
     print("Expected Number of AWS Tests: "+ str(json_input["num_tests"]))
     print("Total Successful Tests: "+ str(successful_tests))
     print("Total Failed Tests: " + str(failed_tests))
-    print("Testing Results: " + str(100 * float(successful_tests/(successful_tests+failed_tests))) + "%")
+    print("Testing Results: " + str(100 * (successful_tests/float(successful_tests+failed_tests))) + "%")
 
 if __name__ == '__main__':
     runTests({"num_tests": 20},[])
